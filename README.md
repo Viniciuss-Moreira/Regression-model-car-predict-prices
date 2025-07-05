@@ -10,7 +10,7 @@
 
 **Live Application Link:** [**➡️ Click Here to Try the Live Demo**](https://vinimoreira-regression-prices-cars-b4-it.hf.space)
 ---
-* **[🔬 View the Full Training Notebook on GitHub](./notebooks/Analise_Precos_Carros.ipynb)** * **[🚀 Open and Run Interactively in Google Colab](https://colab.research.google.com/drive/your-notebook-id?usp=sharing)**
+* **[🔬 View the Full Training Notebook on GitHub](./notebooks/notebook.ipynb)** * **[🚀 Open and Run Interactively in Google Colab](https://colab.research.google.com/drive/1r--GE8Np_mnvnmFqMAOKteCkH2Pe0HwE?usp=sharing)**
 ---
 This project showcases a complete Machine Learning workflow, from data analysis to fine-tuning and deploying a deep learning model for tabular regression. It's an interactive application to predict the selling price of used cars in the Brazilian market.
 
