@@ -8,7 +8,9 @@
 [![Gradio](https://img.shields.io/badge/Gradio-4.29-FF7622?style=for-the-badge&logo=gradio&logoColor=white)](https://www.gradio.app/)
 [![Hugging Face](https://img.shields.io/badge/%F0%9F%A4%97%20Hugging%20Face-Spaces-yellow?style=for-the-badge)](https://huggingface.co/spaces)
 
-**Live Application Link:** [**➡️ Click Here to Try the Live Demo**](https://vinimoreira-seu-space-name.hf.space)
+**Live Application Link:** [**➡️ Click Here to Try the Live Demo**](https://vinimoreira-regression-prices-cars-b4-it.hf.space)
+---
+* **[🔬 View the Full Training Notebook on GitHub](./notebooks/Analise_Precos_Carros.ipynb)** * **[🚀 Open and Run Interactively in Google Colab](https://colab.research.google.com/drive/your-notebook-id?usp=sharing)**
 ---
 This project showcases a complete Machine Learning workflow, from data analysis to fine-tuning and deploying a deep learning model for tabular regression. It's an interactive application to predict the selling price of used cars in the Brazilian market.
 
@@ -19,7 +21,7 @@ This project showcases a complete Machine Learning workflow, from data analysis 
 
 This project introduces **FipeFinder AI**, a machine learning application designed to predict the selling price of used cars in the Brazilian market. Unlike static price tables, this model leverages a large, real-world dataset of over 550,000 vehicle listings to capture the complex nuances and relationships that determine a car's true market value.
 
-The core of the project is a **fine-tuned Transformer model**, demonstrating an advanced approach to tabular data regression. The entire process, from data exploration to the final interactive web application, is documented here.
+The core of the project is a fine-tuned regression model, demonstrating an advanced approach to tabular data regression. The entire process, from data exploration to the final interactive web application, is documented here.
 
 ---
 
@@ -28,8 +30,8 @@ The core of the project is a **fine-tuned Transformer model**, demonstrating an 
 The project follows a classic and rigorous Data Science lifecycle:
 1.  **Data Analysis & Feature Engineering:** Deep statistical analysis to clean data, handle missing values, and engineer new high-value features (`age`, `km_per_year`, etc.).
 2.  **Model Engineering & Fine-Tuning:** A pre-trained Portuguese model, **BERTimbau**, was fine-tuned for regression using a custom-built training loop in PyTorch, accelerated by a local NVIDIA GPU.
-3.  **Evaluation:** The final model was evaluated on a hold-out test set of over 110,000 samples, achieving a **Mean Absolute Error (MAE) of approximately R$ 1,721**.
-4.  **Deployment:** The trained model and other artifacts were packaged into an interactive web application using **Gradio** and deployed to **Hugging Face Spaces**.
+3.  **Evaluation:** The final model was evaluated on a hold-out test set of over 110,000 samples, achieving a Mean Absolute Error (MAE) of approximately R$ 1,721.
+4.  **Deployment:** The trained model and other artifacts were packaged into an interactive web application using Gradio and deployed to Hugging Face Spaces.
 
 ---
 
@@ -68,15 +70,13 @@ These instructions are for running the pre-trained model in the interactive Grad
     ```
 5.  **Run the Application:**
     ```bash
-    python app.py
+    python -m frontend.app
     ```
     This will launch the Gradio interface on a local URL (e.g., `http://127.0.0.1:7860`).
 
 ### 2. Replicating the Model Training
 
 The entire process of data analysis, feature engineering, and model training is documented in the Jupyter Notebook. To replicate it, you will need a machine with a CUDA-enabled NVIDIA GPU and a correctly configured Python/CUDA environment.
-
-* **[🔬 View the Full Training Notebook on GitHub](./notebooks/Analise_Precos_Carros.ipynb)** * **[🚀 Open and Run Interactively in Google Colab](https://colab.research.google.com/drive/your-notebook-id?usp=sharing)** ---
 
 ## 🔮 Future Improvements
 
