@@ -1,0 +1,1 @@
+{"numeric": ["age", "odometer", "sale_month", "sale_dayofweek", "sale_dayofyear", "make_popularity", "model_popularity", "km_per_year"], "categorical": ["make", "model", "trim", "body", "transmission", "color", "interior"]}
