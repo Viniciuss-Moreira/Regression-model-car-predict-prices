@@ -1,0 +1,12 @@
+gradio
+torch==2.1.0
+torchvision==0.16.0
+torchaudio==2.1.0
+transformers==4.40.1
+sentence-transformers==2.7.0
+huggingface_hub==0.22.2
+pandas==2.1.3
+numpy==1.26.1
+scikit-learn==1.3.2  # Fixamos esta versão para garantir compatibilidade com o arquivo .pkl salvo
+joblib==1.3.2
+python-dotenv==1.0.0
