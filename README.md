@@ -42,7 +42,7 @@ The project follows a classic and rigorous Data Science lifecycle:
 
 ---
 
-## ⚙️ How to Run
+## ⚙️ How to Run Locally
 
 This project has two main components: the final Gradio application and the training notebook.
 
