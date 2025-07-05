@@ -1,4 +1,4 @@
-[🇬🇧 View in English](./README.md)
+[🇺🇸 View in English](./README.md)
 ---
 
 # 🚗 Modelo de Regressão: Previsão de Preços de Carros com Deep Learning
