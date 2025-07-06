@@ -21,7 +21,7 @@ This project showcases a complete Machine Learning workflow, from data analysis 
 
 ## 📖 Project Description
 
-This project introduces **FipeFinder AI**, a machine learning application designed to predict the selling price of used cars in the Brazilian market. Unlike static price tables, this model leverages a large, real-world dataset of over 550,000 vehicle listings to capture the complex nuances and relationships that determine a car's true market value.
+This project introduces FipeFinder AI, a machine learning application designed to predict the selling price of used cars in the Brazilian market. Unlike static price tables, this model leverages a large, real-world dataset of over 550,000 vehicle listings to capture the complex nuances and relationships that determine a car's true market value.
 
 The core of the project is a fine-tuned regression model, demonstrating an advanced approach to tabular data regression. The entire process, from data exploration to the final interactive web application, is documented here.
 
